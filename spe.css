@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(45deg,#010758,#490d61)
+    /* margin:20px; */
+}
+
+.container {
+    text-align: center;
+    background-image: url('D:/html/your-image.jpg');
+    background: white;
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+button {
+
+   
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+#start-btn {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    color: black;
+}
+
+#stop-btn {
+    font-family: Arial, sans-serif;
+    background-color: #f44336;
+    color: white;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    background: #efefef;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
